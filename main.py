@@ -2,6 +2,7 @@ from gestion_ventas import registrar_venta
 from gestion_compras import registrar_compra
 from gestion_informes import generar_informe_ventas, generar_informe_stock
 
+#Menu principal
 def main():
     while True:
         print("\nSistema de Gestión PanCamp")
