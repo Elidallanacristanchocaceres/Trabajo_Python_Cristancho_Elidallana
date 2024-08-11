@@ -1,4 +1,4 @@
-from gestion_ventas import registrar_venta
+from gestion_ventas import registrar_Ventas
 from gestion_compras import registrar_compra
 from gestion_informes import generar_informe_ventas, generar_informe_stock
 
@@ -15,7 +15,7 @@ def main():
         opcion = input("Seleccione una opción: ")
         
         if opcion == '1':
-            registrar_venta()
+            registrar_Ventas()
         elif opcion == '2':
             registrar_compra()
         elif opcion == '3':

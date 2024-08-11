@@ -52,8 +52,8 @@ productos = {
     }
 }
 
-def registrar_venta():
-    venta = {
+def registrar_Ventas():
+    Ventas = {
         "fecha": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "cliente": {
             "nombre": input("Nombre del cliente: "),
@@ -103,7 +103,7 @@ def registrar_venta():
                     else:
                         print("Por favor, ingrese un número válido para la cantidad.")
                 
-                venta["productos"].append({
+                Ventas["productos"].append({
                     "nombre": producto,
                     "cantidad": cantidad,
                     "precio": precio
@@ -111,10 +111,10 @@ def registrar_venta():
             else:
                 print("El producto ingresado no existe en la categoría seleccionada.")
 
-        with open('ventas.json', 'a') as file:
-            json.dump(venta, file, indent=4)
+        with open('Ventass.json', 'a') as file:
+            json.dump(Ventas, file, indent=4)
             file.write("\n")
 
-        print("Venta registrada exitosamente.")
+        print("Ventas registrada exitosamente.")
     else:
         print("Categoría no válida.")
