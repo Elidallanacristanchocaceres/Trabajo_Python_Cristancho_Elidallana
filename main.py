@@ -23,7 +23,7 @@ def main():
         elif opcion == '4':
             generar_informe_stock()
         elif opcion == '5':
-            print("Saliendo del sistema...")
+            print("Saliendo del sistema gestion PanCamp...")
             break
         else:
             print("Opción no válida. Intente de nuevo.")
