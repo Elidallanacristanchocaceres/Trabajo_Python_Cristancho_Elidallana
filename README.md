@@ -46,5 +46,10 @@ Cada categoría tiene productos asociados con sus respectivos precios.
 #### Stock
 El stock de productos se mantiene actualizado y es utilizado para generar el informe de stock.
 
-### 📱 Contacto
-Para cualquier pregunta o comentario sobre el proyecto, por favor contacta con [Elidallana Cristancho] a través de [cristanchodayana062017@gmail.com].
+____
+### 📬 Contacto
+- 📧 Correo electrónico: cristanchodayana062017@gmail.com
+
+- 💼 LinkedIn: [Elidallana Cristancho Caceres](https://www.linkedin.com/in/elidallanacristancho/)
+
+¡Gracias por ser parte de esta aventura! 🚀✨
